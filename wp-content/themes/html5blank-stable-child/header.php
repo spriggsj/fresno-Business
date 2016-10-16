@@ -10,7 +10,7 @@
 
     	<title>Fresno Business</title>
 
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
 
@@ -38,11 +38,11 @@
                             <div class="row">
                                 <div class="col-xs-12 col-sm-6 col-md-7 main-img">
                                     <a href="<?php echo home_url(); ?>" class="main-logo">
-                                        <aside>
-                                            <?php include 'logo.php'; ?>
-                                        </aside>
-                                        <div>
-                                            <h1 class="main-name">Fresno Busines <span></span></h1>
+                                        
+                                        <div class="logo">
+                                            
+                                            <!-- <div><h1 class="main-name">Fresno Business <span></span></h1></div> -->
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="" />
                                             
                                         </div>
                                     </a>

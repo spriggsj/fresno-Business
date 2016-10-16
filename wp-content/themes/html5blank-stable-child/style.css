@@ -10,3 +10,221 @@
     License: MIT
     License URI: http://opensource.org/licenses/mit-license.php
 */
+/*navbar*/
+.navbar{
+    margin-bottom: 0px;
+    background-color: #3c8f9f;
+}
+.logo img{
+    height:40px;
+    padding-left: 40px;
+}
+h1.main-name{
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a{
+     color:#fff;
+     font-size: 30px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color:#fff;
+}
+
+/*end navbar */
+
+/*jumbotron */
+.btn-primary{
+    background-color: #f3b852;
+}
+
+.jumbotron{
+    background-image: url("./img/blue.jpg");
+    margin-bottom: 0px;
+}
+h1.centerText{
+    color:#fff;
+}
+.centerText{
+    text-align: center;
+    color:#fff;
+}
+/*end jumboton*/
+
+/*contact form */
+#contactForm{
+    background-color: #4f9daa;
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+}
+#contactForm h3{
+    font-size: 40px;
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+    background-color: #f3b852;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #8c8a8a;
+
+}
+/* end contact form*/
+
+/* begin 3 col section */
+div#learn{
+    text-align: center;
+    background-color: #40C3B0;
+    height: 250px;
+    padding-top: 60px;
+}
+
+div#learn h1, #learn h3{
+    color:#fff;
+}
+div#learn h1{
+    font-size: 40px;
+}
+
+div#grow{
+    text-align: center;
+    background-color: #4054C3;
+    height: 250px;
+    padding-top: 60px;
+}
+
+div#grow h1, #grow h3{
+    color:#fff;
+}
+div#grow h1{
+    font-size: 40px;
+}
+
+div#succeed{
+    text-align: center;
+     background-color: #40C3B0;
+     height: 250px;
+     padding-top: 60px;
+}
+
+div#succeed h1, #succeed h3{
+    color:#fff;
+}
+div#succeed h1{
+    font-size: 40px;
+}
+/* end 3 col section */
+
+/* connect section */
+section#connect{
+    height:250px;
+    text-align: center;
+    padding-top: 60px;
+   /* background-color: #4f9daa;*/
+    background-image: url("./img/blue.jpg");
+
+}
+
+section#connect h1, #connect h3{
+    color:#fff;
+}
+section#connect h1{
+    font-size: 40px;
+}
+/* end connection section */
+
+/* search section */
+#search{
+  
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    /*background-color: #4f9daa;*/
+    background-image: url("./img/blue.jpg");
+
+}
+#search h1{
+    font-size: 40px;
+    color: #fff;
+}
+input.search-input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+button.search-submit{
+    background-color: #f3b852;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #8c8a8a;
+}
+/* end Search section */
+
+/* section four column */
+section#fourCol li{
+    list-style: none;
+
+}
+section#fourCol li a{
+    color:#fff;
+    font-size: 30px;
+}
+/* end section four column */
+
+/* footer */
+footer.footer{
+    background-color: #40C3B0;
+}
+nav.secondary-nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+nav.secondary-nav li a{
+    color:#fff;
+
+}
+#menu-primary-1{
+    padding-top: 60px;
+}
+div.posts{
+    padding-top: 60px;
+}
+div.posts li{
+    list-style: none;
+    
+    font-size: 20px;
+    padding-top: 10px;
+}
+div.posts li a{
+    color:#fff;
+}
+.socialFeeds{
+    height: 300px;
+    background-color: #4f9daa;
+    padding-top: 60px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.socialFeeds h2{
+    color:#fff;
+}
+aside.social-links li{
+    list-style: none;
+
+}
+aside.social-links li i{
+    color:#fff;
+    padding: 5px;
+}
+h2#socialContact{
+    color:#fff;
+}
